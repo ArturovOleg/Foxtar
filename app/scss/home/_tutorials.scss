@@ -1,0 +1,48 @@
+.tutorials {
+    padding: 120px 0;
+    font-size: 0;
+
+    &__card {
+        display: inline-block;
+    }
+
+    &__title {
+        font-size: 25px;
+        font-weight: 700;
+        color: #263238;
+        text-align: center;
+        margin-bottom: 60px; 
+    }
+
+    &__card-body {
+        background-color: #e7ebe9;
+    }
+
+    &__card-body-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #263238;
+        text-align: center;
+        padding: 40px 0;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .tutorials{
+        padding: 60px 0;
+
+        &__title {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        &__card {
+            margin-bottom: 20px;
+        }
+
+        &__card-body-title {
+            padding: 20px 0;
+        }
+    }
+}

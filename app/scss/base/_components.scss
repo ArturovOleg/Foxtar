@@ -1,0 +1,162 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-lightgrey {
+    background-color: #f4f6f5;
+}
+
+.bg-blue {
+    background-color: #263238;
+}
+
+.section-default {
+    padding: 120px 0;
+}
+
+.section-small {
+    padding: 120px;
+}
+
+.title {
+    font-family: $roboto;
+    font-weight: bold;
+    font-size: 28px;
+    color: #263238;
+} 
+
+.title-white {
+    font-family: $roboto;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+}
+
+.btn {
+	display: inline-block;
+	font-family: $roboto;
+	line-height: 1;
+	
+}
+
+.btn-default {
+	padding: 20px 32px;
+	font-size: 15px;
+	color: #263238;
+	letter-spacing: 1px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(109, 108, 108, 0.5);
+}
+
+.btn-small {
+    padding: 14px 21px;
+	font-size: 20px;
+	color: #263238;
+	letter-spacing: 1px;
+	background: #fff;
+}
+
+.btn-large {
+    padding: 25px 43px;
+	font-size: 16px;
+	color: #263238;
+	letter-spacing: 1px;
+	background: #fff;
+}
+
+
+.product-card {
+    border: 1px solid lightgray;
+    width: 100%;
+    position: relative;
+
+    &__triangle {
+        width: 0;
+        height: 0;
+        border-top: 40px solid #8bc34a; 
+        border-right: 40px solid transparent;
+        position: absolute;
+    }
+
+    &__light{
+        font-size: 15px;
+        color: #ffffff;
+        position: absolute;
+        padding-left: 10px;
+    }
+
+    &__product-card-body {
+        font-size: 15px;
+        font-weight: bold;
+        color: #263238;
+        background-color: #fff;
+    }
+
+    &__product-card-head {
+        height: 60%;
+    }
+
+    &__product-card-body {
+        height: 40%;
+    }
+
+    &__release-img {
+        size: 100%;;
+    }
+
+    &__sale {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    &__product-description {
+        font-size: 12px;
+        color: #8bc34a
+    }
+
+    &__points {
+        border-top: 1px solid lightgray;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    &__icon-stars {
+        color: #ffa726;
+    }
+
+    &__circle {
+        display: inline-block;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        background-color: lightgray;
+        margin-right: 5px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 30px;
+    }
+
+    &__stars {
+        float: right;
+    }
+
+    &__author {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    &__triangle-icon {
+        position: absolute;
+    }
+}

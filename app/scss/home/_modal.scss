@@ -1,0 +1,188 @@
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+    display: none;
+    z-index: 200;
+}
+
+.popup {
+	position: fixed;
+    width: 60%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 80px 120px;
+	box-sizing: border-box;
+	background-color: #8bc34a;
+    color: #fff;
+    text-align: center;
+    
+    &__form {
+        
+    }
+    
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &__input-name {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+        background-color: #76ae36;
+        padding: 10px 40px;
+        color: #fff;
+        
+        &::placeholder {
+            color: #fff;
+        }
+
+              
+    }
+
+    &__input-name-shell {
+        position: relative;
+
+        &::before {
+            content: '\f007';
+            font-family: "FontAwesome";
+            position: absolute;
+            font-size: 15px;
+            top: 10px;
+            left: 15px;
+            z-index: 2;
+        }  
+    }
+
+    &__input-password-shell {
+        position: relative;
+
+        &::before {
+            content: '\f023';
+            font-family: "FontAwesome";
+            position: absolute;
+            font-size: 15px;
+            top: 10px;
+            left: 15px;
+            z-index: 2;
+        }  
+    }
+
+
+    &__input-password {
+        width: 100%;
+        background-color: #76ae36;
+        padding: 10px 40px;
+        margin-bottom: 10px;
+        color: #fff;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        text-align: center;
+        text-transform: uppercase;
+        color: #111111;
+        font-weight: 700;
+        padding: 10px 25px;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px rgba(118, 174, 54,1.5);
+        margin-right: 10px;
+        align-items: center;
+    }
+
+    &__input-reg {
+        height: 100%;
+        width: 100%;
+        width: 100%;
+        background-color: #76ae36;
+        padding: 10px 40px;
+        color: #ffff;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    &__input-reg-shell {
+        position: relative;
+        width: 100%;
+
+        &::before {
+            content: '\f023';
+            font-family: "FontAwesome";
+            position: absolute;
+            font-size: 15px;
+            top: 10px;
+            left: 15px;
+            z-index: 2;
+        } 
+
+    }
+
+    &__lost-pass {
+        text-align: left;   
+    }
+
+    &__lost-pass-link {
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #76ae36;
+         }
+    }
+}
+
+.close-popup {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.close-popup:before {
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	height: 2px;
+	width: 15px;
+	top: 11px;
+	left: -4px;
+	transform: rotate(-45deg);
+}
+
+.close-popup:after {
+	content: '';
+	background-color: #fff;
+	position: absolute;
+	height: 2px;
+	width: 15px;
+	top: 11px;
+	transform: rotate(45deg);
+	left: -4px;
+}
+
+@media screen and (max-width: 768px) {
+
+	.popup {
+		width: 100%;
+		height: 100vh;
+		font-size: 15px;
+	}
+}

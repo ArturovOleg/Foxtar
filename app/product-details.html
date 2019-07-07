@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foxtar</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="style/font-awesome.css">
+    <!-- range -->
+    <link rel="stylesheet" href="libs/css/ion.rangeSlider.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="sprite/sprite.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__header-top header-top">
+                <a href="index.html" class="header-top__logo-link"><img src="img/logo.png" alt="logo"
+                        class="header-top__logo-img">
+                </a>
+                <div class="header-top__content">
+                    <h5 class="header-top__content-text">
+                        <span class="header-top__contetn-text-red">Need help?</span> Talk to an expert: +61 3
+                        8376 6284
+                    </h5>
+                    <div class="header-top__btn-cirkle">
+                        <button class="header-top__content-icon-notification">
+                            <i class="fa fa-bell header-top__fa-notification" aria-hidden="true"></i>
+                            <div class="header-top__notification-drop-menu ndm">
+                                <div class="ndm__card">
+                                    <div class="ndm__image"></div>
+                                    <div class="ndm__info">
+                                        <span class="ndm__info-text">
+                                            Need WP Help
+                                        </span>
+                                        <span class="ndm__info-date">
+                                            01 Dec, 2019
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="ndm__card">
+                                    <div class="ndm__image"></div>
+                                    <div class="ndm__info">
+                                        <span class="ndm__info-text">
+                                            Need WP Help
+                                        </span>
+                                        <span class="ndm__info-date">
+                                            26 Nov, 2019
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="ndm__card">
+                                    <div class="ndm__image"></div>
+                                    <div class="ndm__info">
+                                        <span class="ndm__info-text">
+                                            Psd Template Help!
+                                        </span>
+                                        <span class="ndm__info-date">
+                                            26 Nov, 2019
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="header-top__btn-cirkle">
+                        <button class="header-top__content-icon-message">
+                            <i class="fa fa-envelope header-top__fa-message" aria-hidden="true"></i>
+                            <div class="header-top__message-drop-menu mdm">
+                                <div class="mdm__card">
+                                    <div class="mdm__image"></div>
+                                    <div class="mdm__info">
+                                        <span class="mdm__info-name">
+                                            Kazi Fahim
+                                        </span>
+                                        <span class="mdm__info-text">
+                                            Need WP Help
+                                        </span>
+                                        <span class="mdm__info-date">
+                                            01 Dec, 2019
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mdm__card">
+                                    <div class="mdm__image"></div>
+                                    <div class="mdm__info">
+                                        <span class="mdm__info-name">
+                                            Richi Lenal
+                                        </span>
+                                        <span class="mdm__info-text">
+                                            Need WP Help
+                                        </span>
+                                        <span class="mdm__info-date">
+                                            01 Dec, 2019
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mdm__card">
+                                    <div class="mdm__image"></div>
+                                    <div class="mdm__info">
+                                        <span class="mdm__info-name">
+                                            PsdBosS
+                                        </span>
+                                        <span class="mdm__info-text">
+                                            Need WP Help
+                                        </span>
+                                        <span class="mdm__info-date">
+                                            01 Dec, 2019
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="header-top__btn-cirkle">
+                        <button class="header-top__content-icon-bucket">
+                            <i class="fas fa-shopping-cart header-top__fa-bucket"></i>
+                            <div class="header-top__bucket-drop-menu bdm">
+                                <div class="bdm__card">
+                                    <div class="bdm__image"></div>
+                                    <div class="bdm__info">
+                                        <span class="bdm__info-name">
+                                            Grand Ballet
+                                        </span>
+                                        <span class="bdm__info-text">
+                                            WordPress
+                                        </span>
+                                        <span class="bdm__info-date">
+                                            $59
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="bdm__card">
+                                    <div class="bdm__image"></div>
+                                    <div class="bdm__info">
+                                        <span class="bdm__info-name">
+                                            Apple Device
+                                        </span>
+                                        <span class="bdm__info-text">
+                                            WordPress
+                                        </span>
+                                        <span class="bdm__info-date">
+                                            $59
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="bdm__card">
+                                    <div class="bdm__text">
+                                        <span class="bdm__text-total">
+                                            Total
+                                        </span>
+                                        <span class="bdm__text-total-prise">
+                                            $118
+                                        </span>
+                                    </div>
+                                    <div class="bdm__buttons">
+                                        <a href="" class="bdm__button-card">
+                                            Go To Card
+                                        </a>
+                                        <a href="" class="bdm__button-check">
+                                            Go To Checkout
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="header-top__content-user">
+                        <div class="header-top__content-user-pic">
+                            <img src="img/why-choose.jpg" alt="avatar" class="header-top__content-user-avatar">
+                        </div>
+                        <div class="header-top__content-user-info">
+                            <span class="header-top__content-user-name">
+                                Mike Hussy
+                            </span>
+                            <span class="header-top__content-user-balance">
+                                $171.00
+                            </span>
+                        </div>
+                        <div class="header-top__user-drop-menu">
+                            <a href="#" class="header-top__drop-item">
+                                Profile Page
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Portfolio
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Account Settings
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Downloads
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Wishlist
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Upload Item
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Statement
+                            </a>
+                            <a href="#" class="header-top__drop-item">
+                                Widhdraws
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-top__content-button-group">
+                        <button class="header-top__content-button-reg">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__header-menu header-menu">
+            <div class="container">
+                <nav class="header-menu__nav">
+                    <ul class="header-menu__nav-list">
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Home</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">About</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Word Press</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Joomla</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">PSD</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Plugins</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Components</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Pages</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Contact</a></li>
+                        <li class="header-menu__nav-item"><a href="" class="header-menu__nav-link">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- header-end -->
+
+    <!-- poster -->
+
+    <section class="poster-product" id="poster">
+        <div class="poster__content">
+            <h2 class="poster__description">
+                Premium WordPress Themes, Web Templates and Many More ...
+            </h2>
+            <form action="#" class="poster__form">
+                <div class="poster__form-input-shell">
+                    <input type="seach" class="poster__form-input" placeholder="Search Your Keywoords...">
+                </div>
+                <button type="submit" class="poster__form-button">
+            </form>
+            </form>
+        </div>
+        <div class="video-bg video-bg-product">
+            <video width="100%" height="auto" autoplay="autoplay" preload="auto" loop="loop" muted>
+                <source src="img/Busy-People.mp4" type="video/mp4">
+                </source>
+            </video>
+        </div>
+    </section>
+    <!-- poster-end -->
+
+    <div class="container">
+
+        <!-- breadcrumb -->
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+            </ol>
+        </nav>
+
+        <!-- breadcrumb end -->
+
+        <div class="row">
+            <div class="col col-9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12 main-image">
+                            <img src="img/ph-1.jpg" alt="">
+                        </div>
+                        <div class="col col-12 main-text">
+                            <h5 class="main-text__title">
+                                GTBuilder - Construction & Building WordPress Theme
+                            </h5>
+                            <span class="main-text__description">
+                                Bmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley of type and scrambled it to make a type specimen book. It has survived noning
+                                essentially unchanged.
+                            </span>
+                            <div class="main-text__button-group button-group">
+                                <div class="button-group__left">
+                                    <button class="button-group__left-live">Live Preview</button>
+                                    <button class="button-group__left-screen">Screenshot</button>
+                                    <button class="button-group__left-doc">Documentation</button>
+                                </div>
+                                <div class="button-group__social">
+                                    <a href="#" class="button-group__social-fb">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="button-group__social-tw">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="button-group__social-in">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="button-group__social-pi">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 details-tabs">
+                            <nav class="details-tabs__nav">
+                                <ul class="details-tabs__nav-list">
+                                    <li class="details-tabs__nav-item">
+                                        <a href="#item-features" class="details-tabs__nav-link">
+                                            Item Features
+                                        </a>
+                                    </li>
+                                    <li class="details-tabs__nav-item">
+                                        <a href="#comments" class="details-tabs__nav-link">
+                                            Comments
+                                        </a>
+                                    </li>
+                                    <li class="details-tabs__nav-item">
+                                        <a href="#reviews" class="details-tabs__nav-link">
+                                            Reviews
+                                        </a>
+                                    </li>
+                                    <li class="details-tabs__nav-item">
+                                        <a href="#support" class="details-tabs__nav-link">
+                                            Support
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="details-tabs__content" id="item-features">
+                                <div class="details-tabs__content-col">
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Printing and typesetting industry
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Bhen an unknown printe
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Handard dummy text
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Desktop publishing software
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Bhen an unknown printe
+                                    </a>
+                                </div>
+                                <div class="details-tabs__content-col">
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Printing and typesetting industry
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Bhen an unknown printe
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Handard dummy text
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="details-tabs__content" id="comments">
+                                <div class="details-tabs__content-col">
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Printing and typesetting industry
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Bhen an unknown printe
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Handard dummy text
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Desktop publishing software
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Bhen an unknown printe
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="details-tabs__content" id="reviews">
+                                <div class="details-tabs__content-col">
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Printing and typesetting industry
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Bhen an unknown printe
+                                    </a>
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Handard dummy text
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="details-tabs__content" id="support">
+                                <div class="details-tabs__content-col">
+                                    <a href="#" class="details-tabs__content-col-item">
+                                        Printing and typesetting industry
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 more-products">
+                            <h5 class="more-products__title">
+                                More Product By PsdBosS
+                            </h5>
+                        </div>
+                        <div class="more-products__content">
+                            <div class="more-products__card mp-card">
+                                <div class="mp-card__photo">
+
+                                </div>
+                                <div class="mp-card__text">
+                                    <h5 class="mp-card__text-name">
+                                        Grand Ballet - Dance
+                                    </h5>
+                                    <span class="mp-card__text-type">
+                                        PSD Template
+                                    </span>
+                                    <span class="mp-card__text-price">
+                                        $12
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="more-products__card mp-card">
+                                <div class="mp-card__photo">
+
+                                </div>
+                                <div class="mp-card__text">
+                                    <h5 class="mp-card__text-name">
+                                        Grand Ballet - Dance
+                                    </h5>
+                                    <span class="mp-card__text-type">
+                                        PSD Template
+                                    </span>
+                                    <span class="mp-card__text-price">
+                                        $12
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="more-products__card mp-card">
+                                <div class="mp-card__photo">
+
+                                </div>
+                                <div class="mp-card__text">
+                                    <h5 class="mp-card__text-name">
+                                        Grand Ballet - Dance
+                                    </h5>
+                                    <span class="mp-card__text-type">
+                                        PSD Template
+                                    </span>
+                                    <span class="mp-card__text-price">
+                                        $12
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="more-products__card mp-card">
+                                <div class="mp-card__photo">
+
+                                </div>
+                                <div class="mp-card__text">
+                                    <h5 class="mp-card__text-name">
+                                        Grand Ballet - Dance
+                                    </h5>
+                                    <span class="mp-card__text-type">
+                                        PSD Template
+                                    </span>
+                                    <span class="mp-card__text-price">
+                                        $12
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="more-products__card mp-card">
+                                <div class="mp-card__photo">
+
+                                </div>
+                                <div class="mp-card__text">
+                                    <h5 class="mp-card__text-name">
+                                        Grand Ballet - Dance
+                                    </h5>
+                                    <span class="mp-card__text-type">
+                                        PSD Template
+                                    </span>
+                                    <span class="mp-card__text-price">
+                                        $12
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="more-products__card mp-card">
+                                <div class="mp-card__photo">
+
+                                </div>
+                                <div class="mp-card__text">
+                                    <h5 class="mp-card__text-name">
+                                        Grand Ballet - Dance
+                                    </h5>
+                                    <span class="mp-card__text-type">
+                                        PSD Template
+                                    </span>
+                                    <span class="mp-card__text-price">
+                                        $12
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="col col-3 aside">
+                <div class="aside__product-price product-price">
+                    <h5 class="product-price__title">
+                        Product Price
+                    </h5>
+                    <div class="product-price__price">
+                        <span class="product-price__price-text">
+                            $59.00
+                        </span>
+                        <form action="" class="product-price__form">
+                            <select name="price" id="" class="product-price__form-field">
+                                <option value="Regular">Regular</option>
+                                <option value="Regular">Regular</option>
+                                <option value="Regular">Regular</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="product-price__button-group">
+                        <button class="product-price__cart">
+                            <span class="product-price__btn-cart-text">Add To Cart</span>
+                        </button>
+                        <button class="product-price__fav">
+                            <span class="product-price__btn-fav-text">Add To Favorites</span>
+                        </button>
+                        <button class="product-price__buy">
+                            <span class="product-price__btn-buy-text">Buy Now</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="aside__author author">
+                    <h5 class="author__title">
+                        Product Author
+                    </h5>
+                    <div class="author__profile">
+                        <div class="author__photo">
+
+                        </div>
+                        <div class="author__text">
+                            <span class="author__name">
+                                PsdBosS
+                            </span>
+                            <a href="#" class="author__info">
+                                View Profile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="author__icons">
+                        <div class="icon-author_1_icon author__ico"></div>
+                        <div class="icon-author_2_icon author__ico"></div>
+                        <div class="icon-author_3_icon author__ico"></div>
+                        <div class="icon-author_4_icon author__ico"></div>
+                        <div class="icon-author_5_icon author__ico"></div>
+                    </div>
+                </div>
+                <div class="aside__sales sales">
+                    <i class="fa fa-shopping-cart sales__icon" aria-hidden="true"></i>
+                    <span class="sales__number">
+                        05
+                    </span>
+                    <span class="sales__text">
+                        Sales
+                    </span>
+                </div>
+                <div class="aside__product-info product-info">
+                    <h5 class="product-info__title">
+                        Product Information
+                    </h5>
+                    <div class="product-info__text">
+                        <span class="product-info__text-main">
+                            Released On:<span class="product-info__text-light">
+                                1 January, 2016
+                            </span>
+                        </span>
+                        <span class="product-info__text-main">
+                            Last Update:<span class="product-info__text-light">
+                                20 April, 2016
+                            </span>
+                        </span>
+                        <span class="product-info__text-main">
+                            Download:<span class="product-info__text-light">
+                                613
+                            </span>
+                        </span>
+                        <span class="product-info__text-main">
+                            Version:<span class="product-info__text-light">
+                                1.1
+                            </span>
+                        </span>
+                        <span class="product-info__text-main">
+                            Compatible Browsers:<span class="product-info__text-light">
+                                <br> IE9, IE10, IE11, Firefox, Safari,
+                                Opera, Chrome
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+    </div>
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="container">
+                <div class="footer__column footer-column">
+                    <h3 class="footer-column__title">
+                        About Company
+                    </h3>
+                    <span class="footer-column__text">
+                        Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet
+                        urna
+                        iat.Praesent vel rutrum purus.
+                    </span>
+                    <span class="footer-column__addres">
+                        PO Box 16122 Collins Street West
+                        Victoria 8007 Australia
+                    </span>
+                    <span class="footer-column__phone">
+                        +61 3 8376 6284
+                    </span>
+                </div>
+                <div class="footer__column footer-column">
+                    <h3 class="footer-column__title">
+                        Join Our Community
+                    </h3>
+                    <a href="#" class="footer-column__item">
+                        Home
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Forums
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Become An Author
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Community Meetups
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Become An Afiliate
+                    </a>
+                </div>
+                <div class="footer__column footer-column">
+                    <h3 class="footer-column__title">
+                        Need Help?
+                    </h3>
+                    <a href="#" class="footer-column__item">
+                        Help Center
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Foxtar Market Terms
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Author Terms
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Foxtar Licenses
+                    </a>
+                    <a href="#" class="footer-column__item">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="footer__column footer-column">
+                    <h3 class="footer-column__title">
+                        Follow Us On
+                    </h3>
+                    <div class="footer-column__social">
+                        <a class="icon-facebook footer-column__social-link" href="#"></a>
+                        <a class="icon-twitter footer-column__social-link" href="#"></a>
+                        <a class="icon-youtube footer-column__social-link" href="#"></a>
+                        <a class="icon-pinterest footer-column__social-link" href="#"></a>
+                        <a class="icon-linkedin footer-column__social-link" href="#"></a>
+                    </div>
+                    <h3 class="footer-column__form-title">
+                        Newsletter Sign Up!
+                    </h3>
+                    <form action="" class="footer-column__form">
+                        <input type="email" class="footer-column__form-input" placeholder="E-mail Address">
+                        <button class="footer-column__form-btn">
+                            <i class="fas fa-location-arrow"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="footer__bottom-text">
+            © 2019 Foxtar market place. Trademarks and brands are the property of their respective owners.
+        </p>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- popup -->
+
+    <div class="overlay js-overlay">
+        <div class="popup js-popup">
+
+            <form action="" class="popup__form">
+                <h3 class="popup__title">
+                    Login
+                </h3>
+                <div class="popup__input-name-shell">
+                    <input type="name" class="popup__input-name" placeholder="Name">
+                </div>
+                <div class="popup__input-password-shell">
+                    <input type="password" class="popup__input-password" placeholder="Password">
+                </div>
+                <div class="popup__bottom">
+                    <button type="submit" class="popup__btn">Submit</button>
+                    <div class="popup__input-reg-shell">
+                        <input type="text" class="popup__input-reg" placeholder="Create An Account?">
+                    </div>
+
+                </div>
+                <h5 class="popup__lost-pass">
+                    <a href="" class="popup__lost-pass-link">
+                        Lost Password?
+                    </a>
+                </h5>
+            </form>
+            <div class="close-popup js-close"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JQuery UI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/936a744753.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <scrpt src="libs/slick-carousel/slick.min.js"></scrpt>
+    <!-- <script src="libs/js/ion.rangeSlider.js"></script> -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.trending {
+    padding: 120px 0;
+
+    &__title {
+        font-size: 25px;
+        font-weight: 700;
+        color: #263238;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li button {
+    border-radius: 50%;
+    font-size: 0px;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.slick-active button {
+    background-color: #8bc34a;
+}
+
+@media (max-width:767px) {
+    .trending {
+        padding: 60px 0;
+
+        &__title {
+            font-size: 18px;
+        }
+    }
+}
